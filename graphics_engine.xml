@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<efx:project name="graphics_engine" description="" last_change="1789828305" sw_version="2025.2.288.2.10" last_run_state="pass" last_run_flow="bitstream" config_result_in_sync="true" design_ood="change" place_ood="sync" route_ood="sync" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
+    <efx:device_info>
+        <efx:family name="Trion"/>
+        <efx:device name="T20F256"/>
+        <efx:timing_model name="C4"/>
+    </efx:device_info>
+    <efx:design_info def_veri_version="verilog_2k" def_vhdl_version="vhdl_2008" unified_flow="false">
+        <efx:top_module name="main"/>
+        <efx:design_file name="main.vhd" version="default" library="default"/>
+        <efx:design_file name="line_buffer.vhd" version="default" library="default"/>
+        <efx:design_file name="tmds_encoder.vhd" version="default" library="default"/>
+        <efx:design_file name="screen_timer.vhd" version="default" library="default"/>
+        <efx:design_file name="address_decode.vhd" version="default" library="default"/>
+        <efx:design_file name="cpu_interface.vhd" version="default" library="default"/>
+        <efx:design_file name="system_registers.vhd" version="default" library="default"/>
+        <efx:design_file name="line_buffers.vhd" version="default" library="default"/>
+        <efx:design_file name="ColorRAMBlue.v" version="default" library="default"/>
+        <efx:design_file name="ColorRAMGreen.v" version="default" library="default"/>
+        <efx:design_file name="ColorRAMRed.v" version="default" library="default"/>
+        <efx:design_file name="sprite_engine.vhd" version="default" library="default"/>
+        <efx:design_file name="text_engine.vhd" version="default" library="default"/>
+        <efx:design_file name="tile_engine.vhd" version="default" library="default"/>
+        <efx:design_file name="mem2Kfonts.vhd" version="default" library="default"/>
+        <efx:design_file name="mem8K.vhd" version="default" library="default"/>
+        <efx:design_file name="mem1K1to8.vhd" version="default" library="default"/>
+        <efx:design_file name="mem8K1to4.vhd" version="default" library="default"/>
+        <efx:design_file name="sprite_math.vhd" version="default" library="default"/>
+        <efx:design_file name="sprite_scan.vhd" version="default" library="default"/>
+        <efx:design_file name="sprite_blitter.vhd" version="default" library="default"/>
+        <efx:design_file name="audiogen.vhd" version="default" library="default"/>
+        <efx:design_file name="i2s.vhd" version="default" library="default"/>
+        <efx:design_file name="LFSR16.vhd" version="default" library="default"/>
+        <efx:design_file name="waveGen.vhd" version="default" library="default"/>
+        <efx:design_file name="audioADSR.vhd" version="default" library="default"/>
+        <efx:design_file name="audioVolMath.vhd" version="default" library="default"/>
+        <efx:design_file name="audioMod.vhd" version="default" library="default"/>
+        <efx:design_file name="audioSum.vhd" version="default" library="default"/>
+        <efx:design_file name="audioState.vhd" version="default" library="default"/>
+        <efx:design_file name="audioMem.vhd" version="default" library="default"/>
+        <efx:design_file name="audioMemInterface.vhd" version="default" library="default"/>
+        <efx:design_file name="audioRawMem.vhd" version="default" library="default"/>
+        <efx:design_file name="copperMem.vhd" version="default" library="default"/>
+        <efx:design_file name="copper.vhd" version="default" library="default"/>
+        <efx:design_file name="debounce.vhd" version="default" library="default"/>
+        <efx:design_file name="mode_decode.vhd" version="default" library="default"/>
+        <efx:design_file name="bankEngineAttach.vhd" version="default" library="default"/>
+        <efx:design_file name="engineBufferAttach.vhd" version="default" library="default"/>
+        <efx:design_file name="bitmap_engine.vhd" version="default" library="default"/>
+        <efx:design_file name="affine_engine.vhd" version="default" library="default"/>
+        <efx:design_file name="registeredmux20x8.vhd" version="default" library="default"/>
+        <efx:design_file name="mem128b.vhd" version="default" library="default"/>
+        <efx:design_file name="windowed_effects.vhd" version="default" library="default"/>
+        <efx:design_file name="window_compare.vhd" version="default" library="default"/>
+        <efx:design_file name="effect_math.vhd" version="default" library="default"/>
+        <efx:design_file name="copper_instruction_decode.vhd" version="default" library="default"/>
+        <efx:design_file name="copper_ALU.vhd" version="default" library="default"/>
+        <efx:design_file name="copper_multiply.vhd" version="default" library="default"/>
+        <efx:design_file name="copperStateEngine.vhd" version="default" library="default"/>
+        <efx:design_file name="affine_math.vhd" version="default" library="default"/>
+        <efx:design_file name="affine_memory.vhd" version="default" library="default"/>
+        <efx:design_file name="engineBufferAttach3.vhd" version="default" library="default"/>
+        <efx:design_file name="bitmap_palette_memory.vhd" version="default" library="default"/>
+        <efx:design_file name="copperSourceSelect.vhdl" version="default" library="default"/>
+        <efx:design_file name="mux16x8.vhdl" version="default" library="default"/>
+        <efx:design_file name="mux8x8.vhdl" version="default" library="default"/>
+        <efx:design_file name="mux16x2.vhdl" version="default" library="default"/>
+        <efx:design_file name="mux8x2.vhdl" version="default" library="default"/>
+        <efx:design_file name="mux8x4.vhdl" version="default" library="default"/>
+        <efx:design_file name="mux16x4.vhdl" version="default" library="default"/>
+        <efx:design_file name="CopperRegisters.vhdl" version="default" library="default"/>
+        <efx:design_file name="CopperDataPath.vhdl" version="default" library="default"/>
+        <efx:design_file name="CopperInstructionPointer.vhdl" version="default" library="default"/>
+        <efx:design_file name="copperConditionals.vhd" version="default" library="default"/>
+        <efx:top_vhdl_arch name="behavior"/>
+    </efx:design_info>
+    <efx:constraint_info>
+        <efx:sdc_file name="timing.sdc"/>
+        <efx:inter_file name=""/>
+    </efx:constraint_info>
+    <efx:sim_info/>
+    <efx:misc_info/>
+    <efx:ooc_info/>
+    <efx:ip_info>
+        <efx:ip instance_name="mem1Ksprites" path="ip/mem1Ksprites/settings.json" ooc="false">
+            <efx:ip_src_file name="mem1Ksprites.v"/>
+        </efx:ip>
+        <efx:ip instance_name="mem2Kfont" path="ip/mem2Kfont/settings.json" ooc="false">
+            <efx:ip_src_file name="mem2Kfont.v"/>
+        </efx:ip>
+        <efx:ip instance_name="mem4Kmap" path="ip/mem4Kmap/settings.json" ooc="false">
+            <efx:ip_src_file name="mem4Kmap.v"/>
+        </efx:ip>
+        <efx:ip instance_name="blitterFIFO" path="ip/blitterFIFO/settings.json" ooc="false">
+            <efx:ip_src_file name="blitterFIFO.sv"/>
+        </efx:ip>
+        <efx:ip instance_name="mem512x4bit" path="ip/mem512x4bit/settings.json" ooc="false">
+            <efx:ip_src_file name="mem512x4bit.v"/>
+        </efx:ip>
+        <efx:ip instance_name="mem128B1to1" path="ip/mem128B1to1/settings.json" ooc="false">
+            <efx:ip_src_file name="mem128B1to1.v"/>
+        </efx:ip>
+        <efx:ip instance_name="mem512K" path="ip/mem512K/settings.json" ooc="false">
+            <efx:ip_src_file name="mem512K.v"/>
+        </efx:ip>
+        <efx:ip instance_name="mem2KB1to2" path="ip/mem2KB1to2/settings.json" ooc="false">
+            <efx:ip_src_file name="mem2KB1to2.v"/>
+        </efx:ip>
+        <efx:ip instance_name="sineTableRom" path="ip/sineTableRom/settings.json" ooc="false">
+            <efx:ip_src_file name="sineTableRom.v"/>
+        </efx:ip>
+        <efx:ip instance_name="mem4K" path="ip/mem4K/settings.json" ooc="false">
+            <efx:ip_src_file name="mem4K.v"/>
+        </efx:ip>
+        <efx:ip instance_name="mem1K" path="ip/mem1K/settings.json" ooc="false">
+            <efx:ip_src_file name="mem1K.v"/>
+        </efx:ip>
+        <efx:ip instance_name="wavetableMem" path="ip/wavetableMem/settings.json" ooc="false">
+            <efx:ip_src_file name="wavetableMem.v"/>
+        </efx:ip>
+        <efx:ip instance_name="mem32b" path="ip/mem32b/settings.json" ooc="false">
+            <efx:ip_src_file name="mem32b.v"/>
+        </efx:ip>
+        <efx:ip instance_name="invSqrtTableRom" path="ip/invSqrtTableRom/settings.json" ooc="false">
+            <efx:ip_src_file name="invSqrtTableRom.v"/>
+        </efx:ip>
+    </efx:ip_info>
+    <efx:synthesis tool_name="efx_map">
+        <efx:param name="work_dir" value="work_syn" value_type="e_string"/>
+        <efx:param name="write_efx_verilog" value="on" value_type="e_bool"/>
+        <efx:param name="allow-const-ram-index" value="0" value_type="e_option"/>
+        <efx:param name="blackbox-error" value="1" value_type="e_option"/>
+        <efx:param name="blast_const_operand_adders" value="1" value_type="e_option"/>
+        <efx:param name="bram_output_regs_packing" value="1" value_type="e_option"/>
+        <efx:param name="create-onehot-fsms" value="0" value_type="e_option"/>
+        <efx:param name="fanout-limit" value="0" value_type="e_integer"/>
+        <efx:param name="hdl-compile-unit" value="1" value_type="e_option"/>
+        <efx:param name="infer-clk-enable" value="3" value_type="e_option"/>
+        <efx:param name="infer-sync-set-reset" value="1" value_type="e_option"/>
+        <efx:param name="max_ram" value="-1" value_type="e_integer"/>
+        <efx:param name="max_mult" value="-1" value_type="e_integer"/>
+        <efx:param name="min-sr-fanout" value="0" value_type="e_integer"/>
+        <efx:param name="min-ce-fanout" value="0" value_type="e_integer"/>
+        <efx:param name="mult-decomp-retime" value="0" value_type="e_option"/>
+        <efx:param name="mode" value="speed" value_type="e_option"/>
+        <efx:param name="operator-sharing" value="0" value_type="e_option"/>
+        <efx:param name="optimize-adder-tree" value="0" value_type="e_option"/>
+        <efx:param name="optimize-zero-init-rom" value="1" value_type="e_option"/>
+        <efx:param name="retiming" value="1" value_type="e_option"/>
+        <efx:param name="seq_opt" value="1" value_type="e_option"/>
+        <efx:param name="seq-opt-sync-only" value="0" value_type="e_option"/>
+        <efx:param name="mult_input_regs_packing" value="1" value_type="e_option"/>
+        <efx:param name="mult_output_regs_packing" value="1" value_type="e_option"/>
+        <efx:param name="bram-push-tco-outreg" value="0" value_type="e_option"/>
+        <efx:param name="hdl-loop-limit" value="20000" value_type="e_integer"/>
+        <efx:param name="enable-mark-debug" value="1" value_type="e_option"/>
+        <efx:param name="max-bit-blast-mem-size" value="10240" value_type="e_integer"/>
+        <efx:param name="mult-auto-pipeline" value="0" value_type="e_integer"/>
+        <efx:param name="peri-syn-instantiation" value="0" value_type="e_option"/>
+        <efx:param name="peri-syn-inference" value="0" value_type="e_option"/>
+        <efx:param name="ram-decomp-mode" value="0" value_type="e_option"/>
+        <efx:param name="use-logic-for-small-mem" value="64" value_type="e_integer"/>
+        <efx:param name="use-logic-for-small-rom" value="64" value_type="e_integer"/>
+        <efx:param name="max_threads" value="-1" value_type="e_integer"/>
+        <efx:param name="include" value="ip/blitterFIFO" value_type="e_string"/>
+        <efx:param name="include" value="ip/mem1Ksprites" value_type="e_string"/>
+        <efx:param name="include" value="ip/mem2Kfont" value_type="e_string"/>
+        <efx:param name="include" value="ip/mem4Kmap" value_type="e_string"/>
+        <efx:param name="include" value="ip/mem512x4bit" value_type="e_string"/>
+        <efx:param name="include" value="ip/mem128B1to1" value_type="e_string"/>
+        <efx:param name="include" value="ip/mem512K" value_type="e_string"/>
+        <efx:param name="include" value="ip/mem2KB1to2" value_type="e_string"/>
+        <efx:param name="include" value="ip/sineTableRom" value_type="e_string"/>
+        <efx:param name="include" value="ip/mem4K" value_type="e_string"/>
+        <efx:param name="include" value="ip/mem1K" value_type="e_string"/>
+        <efx:param name="include" value="ip/wavetableMem" value_type="e_string"/>
+        <efx:param name="include" value="ip/mem32b" value_type="e_string"/>
+        <efx:param name="include" value="ip/invSqrtTableRom" value_type="e_string"/>
+        <efx:param name="suppress_info_msgs" value="off" value_type="e_bool"/>
+        <efx:param name="suppress_warning_msgs" value="off" value_type="e_bool"/>
+    </efx:synthesis>
+    <efx:place_and_route tool_name="efx_pnr">
+        <efx:param name="work_dir" value="work_pnr" value_type="e_string"/>
+        <efx:param name="verbose" value="off" value_type="e_bool"/>
+        <efx:param name="seed" value="1" value_type="e_integer"/>
+        <efx:param name="placer_effort_level" value="2" value_type="e_option"/>
+        <efx:param name="max_threads" value="-1" value_type="e_integer"/>
+        <efx:param name="print_critical_path" value="10" value_type="e_integer"/>
+        <efx:param name="classic_flow" value="off" value_type="e_noarg"/>
+        <efx:param name="suppress_info_msgs" value="off" value_type="e_bool"/>
+        <efx:param name="suppress_warning_msgs" value="off" value_type="e_bool"/>
+    </efx:place_and_route>
+    <efx:bitstream_generation tool_name="efx_pgm">
+        <efx:param name="mode" value="active" value_type="e_option"/>
+        <efx:param name="width" value="1" value_type="e_option"/>
+        <efx:param name="enable_roms" value="smart" value_type="e_option"/>
+        <efx:param name="spi_low_power_mode" value="on" value_type="e_bool"/>
+        <efx:param name="io_weak_pullup" value="on" value_type="e_bool"/>
+        <efx:param name="oscillator_clock_divider" value="DIV8" value_type="e_option"/>
+        <efx:param name="bitstream_compression" value="off" value_type="e_bool"/>
+        <efx:param name="enable_external_master_clock" value="off" value_type="e_bool"/>
+        <efx:param name="active_capture_clk_edge" value="posedge" value_type="e_option"/>
+        <efx:param name="jtag_usercode" value="0xFFFFFFFF" value_type="e_string"/>
+        <efx:param name="release_tri_then_reset" value="on" value_type="e_bool"/>
+        <efx:param name="four_byte_addressing" value="off" value_type="e_bool"/>
+        <efx:param name="generate_bit" value="on" value_type="e_bool"/>
+        <efx:param name="generate_bitbin" value="off" value_type="e_bool"/>
+        <efx:param name="generate_hex" value="on" value_type="e_bool"/>
+        <efx:param name="generate_hexbin" value="off" value_type="e_bool"/>
+        <efx:param name="cold_boot" value="off" value_type="e_bool"/>
+        <efx:param name="cascade" value="off" value_type="e_option"/>
+    </efx:bitstream_generation>
+    <efx:debugger>
+        <efx:param name="work_dir" value="work_dbg" value_type="e_string"/>
+        <efx:param name="auto_instantiation" value="off" value_type="e_bool"/>
+        <efx:param name="profile" value="NONE" value_type="e_string"/>
+    </efx:debugger>
+</efx:project>
